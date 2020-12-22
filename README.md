@@ -1,4 +1,4 @@
-# NGSwiftUIDoubleSheetExample
+# NGSwiftUIDoubleSheetExample (FB8949448)
 This code demonstrates an issue where when using two SwiftUI `.sheet` modifiers in an AppKit project, only the second actually controls a sheet.
 
 To reproduce the issue:
@@ -44,3 +44,6 @@ struct ContentView: View {
 ```
 
 Note: The same technique worked correctly on macOS 10.15 (Catalina). This issue was reproduced with Xcode 12.3 on macOS Big Sur 11.0.
+
+More Info:
+- https://twitter.com/noahsark769/status/1341442677120778240?s=20
